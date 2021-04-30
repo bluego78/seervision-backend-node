@@ -17,11 +17,8 @@ You will find many comments on the code inside each file.
     
 - Api folder that contains:
 
-   - models folder
-    here you can find the todoController.js that handles the call from the serve and does the mongo db query, then returns data.
+   - models folder: here you can find the todoController.js that handles the call from the serve and does the mongo db query, then returns data.
 
-  - controllers folder
-    here you can find the todoModel.js that defines the schema/structure of the todo Object.
+  - controllers folder: here you can find the todoModel.js that defines the schema/structure of the todo Object.
 
-  - routes folder
-    here you can find the todoRoutes.js file where are defined the routes that the server accept whit theri methods
+  - routes folder: here you can find the todoRoutes.js file where are defined the routes that the server accept whit theri methods
