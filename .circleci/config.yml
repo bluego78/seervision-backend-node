@@ -1,3 +1,4 @@
+
 orbs:
   heroku: circleci/heroku@1.2
 version: 2.1
@@ -6,6 +7,4 @@ workflows:
     jobs:
       - heroku/deploy-via-git:
           post-steps:
-            - run: your-database-migration-command
-          pre-steps:
-            - run: command-that-run-before-deploying
+            - run: node server.js
